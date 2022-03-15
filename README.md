@@ -5,4 +5,4 @@ fastjson利用，burp插件。
 加载到burp插件，自行选择echo、jndi、inject
 
 # 测试环境
-tomcat启动后，将war包放在webapps目录即可
+tomcat启动后，将war包放在webapps目录即（tomcat自带dhcp依赖），漏洞环境为1.2.24和1.2.47。
